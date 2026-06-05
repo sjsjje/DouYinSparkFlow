@@ -3,7 +3,7 @@ name: DouYin Spark Flow Auto Run
 on:
   workflow_dispatch: # 允许手动触发
   schedule: # 定时任务
-    - cron: "28 16 * * *" # UTC 时间 16:28 -> 对应北京时间 00:28（凌晨错峰）
+    - cron: "28 17 * * *" # UTC 时间 16:28 -> 对应北京时间 00:28（凌晨错峰）
 
 jobs:
   run-main:
